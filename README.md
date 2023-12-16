@@ -32,7 +32,6 @@ Users should be able to:
 
 - Solution URL: [Github-Source](https://github.com/SdevWeb7/ChallengeLinks)
 - Live Site URL: Don't have sorry
-- 
 
 ## My process
 
