@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('app2') }}
+{% endblock %}
+
+{% block body %}
+    <show-element id="react-show" data-email="{{ email }}"></show-element>
+{% endblock %}

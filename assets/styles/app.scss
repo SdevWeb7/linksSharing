@@ -1,0 +1,119 @@
+@import 'fonts';
+@import "profil";
+@import "scrollbar";
+@import "links";
+@import "details";
+@import "preview";
+@import "addlink";
+@import "illustration-link";
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: InstrumentSans;
+    background-color: #FAFAFA;
+    min-height: 100vh;
+}
+.header {
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-size: 26px;
+    margin: 0 0 0 7px;
+}
+.form-auth {
+    margin: 40px auto 20px auto;
+    padding: 30px;
+    min-width: 280px;
+    max-width: 476px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+    h1 {
+        font-size: 26px;
+    }
+    p {
+        color: grey;
+        font-size: 14px;
+        margin: 15px 0 40px 0;
+    }
+    .div-error {
+        margin: -20px 0 20px 0;
+        color: #FF3939;
+    }
+    label {
+        font-size: 12px;
+        margin: 0 0 5px 0;
+        position: relative;
+    }
+    input {
+        font-family: InstrumentSans;
+        margin: 0 0 20px 0;
+        height: 48px;
+        border-radius: 6px;
+        border: 1px solid #b0b0b0;
+        background-color: #FAFAFA !important;
+        padding: 10px 10px 10px 50px;
+        outline: none;
+        &:focus {
+            background-color: white !important;
+            border: 2px solid #BEADFF;
+            box-shadow: 0px 0px 15px -1px rgba(190,173,255,0.86);
+            &:not(:placeholder-shown) {
+                background-color: white !important;
+            }
+        }
+        &:not(:empty) {
+            background-color: white !important;
+        }
+    }
+    .icons-input {
+        position: absolute;
+        bottom: -39px;
+        left: 12px;
+    }
+    .links-auth {
+        margin-top: 20px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        a, p {
+            margin: 0;
+            padding: 0;
+            height: 30px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #633CFF;
+            margin-left: 5px;
+        }
+    }
+    .submit {
+        background-color: #BEADFF;
+        height: 46px;
+        border-radius: 6px;
+        color: white;
+        border: 0px solid transparent;
+        &.valide {
+            background-color: #633CFF;
+            cursor: pointer;
+        }
+    }
+    .notations {
+        padding: 0;
+        margin: -10px 20px 20px 0;
+        color: orange;
+        text-align: right;
+    }
+
+}

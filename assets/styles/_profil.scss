@@ -1,0 +1,71 @@
+.header-profil {
+  height: 78px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  border-radius: 12px;
+
+  .logo-profil {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 20px;
+    .title {
+      font-size: 21px;
+    }
+  }
+
+  .navigation {
+     display: flex;
+     align-items: center;
+
+    .navlinks {
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 6px;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #737373;
+        font-family: InstrumentSans;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0 0 0 5px;
+      }
+      .icons-nav {
+        color: #737373;
+      }
+      &.active {
+        background-color: #EFEBFF;
+
+        a {
+          color: #633CFF;
+        }
+        .icons-nav {
+          color: #633CFF;
+        }
+      }
+    }
+  }
+  .preview-button {
+    padding: 11px 25px 9px 25px;
+    text-decoration: none;
+    align-self: center;
+    height: 46px;
+    border-radius: 8px;
+    border: 2px solid #633CFF;
+    background-color: white;
+    color: #633CFF;
+    font-family: InstrumentSans;
+    font-weight: 700;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #EFEBFF;
+    }
+
+  }
+}

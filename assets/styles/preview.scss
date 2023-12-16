@@ -1,0 +1,108 @@
+.container-show {
+  display: flex;
+  flex-direction: column;
+}
+.background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45%;
+  background-color: #633CFF;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.nav-header {
+  padding: 20px 20px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  .back {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 2px solid #633CFF;
+    color: #633CFF;
+    font-family: InstrumentSans;
+    font-weight: 700;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:visited {
+      color: #633CFF;
+    }
+    &:hover {
+      background-color: #EFEBFF;
+    }
+  }
+  .share {
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+    font-family: InstrumentSans;
+    font-weight: 700;
+    background-color: #633CFF;
+    cursor: pointer;
+    border: none;
+  }
+}
+
+.card-profil {
+  padding: 20px 30px;
+  margin: 50px auto;
+  min-width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 24px 33px -6px #696767;
+
+  .photo-profil {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid #633CFF;
+    margin: 20px 0 30px 0;
+    box-shadow: 0px 14px 28px -10px #727272;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .fullname-profil {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    font-family: InstrumentSans;
+    font-weight: 700;
+  }
+  .email-profil {
+    margin: 0 0 30px 0;
+    font-family: InstrumentSans;
+    font-size: 14px;
+    color: grey;
+  }
+}
+.message {
+  position: fixed;
+  bottom: 10px;
+  left: 30%;
+  right: 30%;
+  background-color: #333333;
+  color: white;
+  font-family: InstrumentSans;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}

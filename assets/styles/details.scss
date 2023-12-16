@@ -1,0 +1,129 @@
+.settings-container {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  margin: 20px 0 0 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+.settings-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 233px;
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .add-image {
+    position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0;
+    width: 30%;
+    color: #633CFF;
+
+    &:hover {
+      background-color: #EFEBFF;
+    }
+
+    a {
+      cursor: pointer;
+      text-decoration: none;
+      font-family: InstrumentSans;
+      margin-top: 10px;
+      font-weight: 700;
+      color: #633CFF;
+    }
+  }
+
+}
+.settings-item2 {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+
+  p {
+    margin: 0 auto 0 0;
+  }
+  input {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    border-radius: 10px;
+    margin: 3px 20px 3px 0;
+    padding: 20px;
+
+    &::placeholder {
+      color: lightgray;
+    }
+  }
+}
+
+
+.custom-file-input {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  * {
+    cursor: pointer;
+  }
+}
+
+.custom-file-input input {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+}
+
+.custom-file-input label {
+  display: inline-block;
+  background: transparent;
+  color: #633CFF;
+  padding: 6px 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 997px) {
+  .settings-item {
+    flex-direction: column;
+  }
+  .add-image {
+    margin: 20px 0 !important;
+    width: 100% !important;
+  }
+  .custom-file-input {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .settings {
+    margin: 30px auto;
+    min-width: 300px;
+  }
+  .apercu {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .phone-img {
+    top: 0 !important;
+  }
+}
