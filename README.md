@@ -1,3 +1,5 @@
+![links](./links.jpg)
+
 # Frontend Mentor - Link-sharing app solution
 
 This is a solution to the [Link-sharing app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/linksharing-app-Fbt7yweGsT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -20,7 +22,6 @@ Users should be able to:
 
 ### Screenshot
 
-![links](./links.jpg)
 ![login](./login.jpg)
 ![subscribe](./subscribe.jpg)
 ![details](./details.jpg)
