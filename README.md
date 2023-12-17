@@ -20,10 +20,10 @@ Users should be able to:
 
 ### Screenshot
 
+![links](./links.jpg)
 ![login](./login.jpg)
 ![subscribe](./subscribe.jpg)
 ![details](./details.jpg)
-![links](./links.jpg)
 ![preview](./preview.jpg)
 ![mobile](./mobile.jpg)
 
